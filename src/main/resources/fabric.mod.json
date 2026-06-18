@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "maikura_enchant_manager",
-  "version": "1.0.0-conflict-r5",
+  "version": "1.0.0",
   "name": "Maikura Enchant Manager",
   "description": "Enchant Manager Terminal for Maikura Kobo equipment blocks.",
   "authors": [

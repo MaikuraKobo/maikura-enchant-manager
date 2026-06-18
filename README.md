@@ -1,31 +1,39 @@
 # Maikura Enchant Manager
 
-Dedicated enchantment management tool for Minecraft Fabric.
+舞倉工房 / MAIKURA KOBO の投入スロット型エンチャント管理MODです。
 
-## Features
+## v1.0.0-final
 
-- Dedicated enchantment management GUI
-- Search and filter enchantments
-- Direct enchantment application
-- Vanilla enchantment level limits
-- Vanilla enchantment conflict restrictions
-- Optional advanced mode for testing and development
+- ブロック設置型「エンチャント管理端末」
+- GUI内の1スロットに入れたアイテムへエンチャントを付与
+- 適正エンチャント表示
+- 検索対応
+- カテゴリフィルタ対応
+- 高レベル付与設定対応
+- 非適正付与設定対応
+- Mod Menu設定画面対応
+- バニラ競合チェック対応
+  - デフォルトはバニラ競合を尊重
+  - 設定ONで競合無視可能
+  - 競合中はグレー表示 + 「（競合）」
+- 全付与 / 全削除対応
+- エンチャント管理端末を光源化（光源レベル12）
+- 端末ブロックに舞倉工房設備共通仕様を適用
+  - 硬さ5.5
+  - 爆発耐性3600000.0
+  - ブロックアイテム耐火
+  - 破壊時自己ドロップ
+- 64px端末テクスチャ
+- 3Dアイテム表示
+- 設置向き対応
+- クラフトレシピ追加
 
-## Survival Friendly
+## 確認事項
 
-The Enchant Manager can be crafted and used in normal survival gameplay.
-
-- No experience cost required
-- Vanilla enchantment compatibility
-- Vanilla conflict rules supported
-- Configurable restrictions
-
-## Requirements
-
-- Minecraft 1.21.11
-- Fabric Loader
-- Fabric API
-
-## License
-
-MIT License
+1. GUIが開く: OK/NG
+2. 光源Lv12: OK/NG
+3. 壊すとアイテム化する: OK/NG
+4. クリーパー/TNTで消えない: OK/NG
+5. 溶岩/火でアイテムが燃えない: OK/NG
+6. シルクタッチと幸運がデフォルトで併用不可: OK/NG
+7. 設定ONでバニラ競合無視が可能: OK/NG

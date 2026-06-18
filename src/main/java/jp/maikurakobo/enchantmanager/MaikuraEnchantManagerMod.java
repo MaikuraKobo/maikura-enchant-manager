@@ -558,7 +558,7 @@ public class MaikuraEnchantManagerMod implements ModInitializer {
                     if (next > 0) {
                         String conflict = conflictName(target, entry);
                         if (conflict != null) {
-                            message(player, entry.value().description().getString() + " は付与できません（競合中: " + conflict + "）");
+                            message(player, entry.value().description().getString() + " は付与できません（競合中：" + conflict + "）");
                             return;
                         }
                     }
@@ -635,7 +635,7 @@ public class MaikuraEnchantManagerMod implements ModInitializer {
                 String suffix = lv > 0 ? " Lv" + lv : "";
                 String conflict = conflictName(target, entry);
                 if (lv <= 0 && conflict != null) {
-                    menuInventory.setStack(LIST_START + i, enchantButton(entry, "§7" + entry.value().description().getString() + " (競合)", conflict));
+                    menuInventory.setStack(LIST_START + i, enchantButton(entry, "§7" + entry.value().description().getString() + "（競合）", conflict));
                 } else {
                     menuInventory.setStack(LIST_START + i, enchantButton(entry, entry.value().description().getString() + suffix));
                 }
@@ -887,7 +887,7 @@ public class MaikuraEnchantManagerMod implements ModInitializer {
         lore.add(Text.literal("説明: " + descriptionOf(entry)));
         lore.add(Text.literal("最大Lv: " + entry.value().getMaxLevel()));
         if (conflict != null) {
-            lore.add(Text.literal("競合中: " + conflict));
+            lore.add(Text.literal("競合中：" + conflict));
             lore.add(Text.literal("設定で『バニラ競合無視』をONにすると併用できます"));
         }
         stack.set(DataComponentTypes.LORE, new LoreComponent(lore));

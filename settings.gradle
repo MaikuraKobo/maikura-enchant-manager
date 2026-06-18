@@ -12,4 +12,4 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = 'maikura-enchant-manager-fabric-mc1.21.11-v1.0.0-conflict-r5'
+rootProject.name = 'maikura-enchant-manager-fabric-mc1.21.11-v1.0.0-final'
