@@ -1,2 +1,27 @@
-# maikura-enchant-manager
-A simple enchantment management tool for survival, creative, and testing workflows.
+# Maikura Enchant Manager
+
+舞倉工房 / MAIKURA KOBO の投入スロット型エンチャント管理MODです。
+
+## v0.1.0-dev1-r15
+
+- ブロック設置型「エンチャント管理端末」
+- GUI内の1スロットに入れたアイテムへエンチャントを付与
+- 「適正エンチャント」タブと「全エンチャント」タブを切替
+- MOD追加エンチャントも登録済みエンチャント一覧から取得
+- エンチャントID表示をツールチップに追加
+- エンチャント説明文表示を追加（未定義は「説明文なし」）
+- カテゴリ切替を追加（全カテゴリ / ツール / 武器 / 防具 / 飛び道具 / 特殊 / 呪い / MOD追加）
+- 全付与、全削除、取り出しに対応
+
+## 次段階予定
+
+- 専用GUI化
+- テキスト検索欄
+- 本アイコン主体から文字主体の一覧へ変更
+- スクロール対応
+
+
+## dev1-r8
+- Advancement Toggle Tool風の専用HandledScreenを追加
+- 1スロット投入、左操作、中央一覧、右詳細/付与済みの3ペイン配置へ変更
+- r3: エンチャント管理端末を光源化（光源レベル12）。

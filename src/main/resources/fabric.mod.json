@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "maikura_enchant_manager",
+  "version": "1.0.0-conflict-r5",
+  "name": "Maikura Enchant Manager",
+  "description": "Enchant Manager Terminal for Maikura Kobo equipment blocks.",
+  "authors": [
+    "MAIKURA KOBO"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "jp.maikurakobo.enchantmanager.MaikuraEnchantManagerMod"
+    ],
+    "client": [
+      "jp.maikurakobo.enchantmanager.MaikuraEnchantManagerClient"
+    ],
+    "modmenu": [
+      "jp.maikurakobo.enchantmanager.MaikuraEnchantManagerModMenu"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "icon": "assets/maikura_enchant_manager/icon.png",
+  "suggests": {
+    "modmenu": "*"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "maikura_enchant_manager:block/enchant_manager_terminal"
+    },
+    "facing=east": {
+      "model": "maikura_enchant_manager:block/enchant_manager_terminal",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "maikura_enchant_manager:block/enchant_manager_terminal",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "maikura_enchant_manager:block/enchant_manager_terminal",
+      "y": 270
+    }
+  }
+}

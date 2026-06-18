@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "maikura_enchant_manager:item/enchant_manager_terminal"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "maikura_enchant_manager:block/enchant_manager_side",
+    "north": "maikura_enchant_manager:block/enchant_manager_front",
+    "south": "maikura_enchant_manager:block/enchant_manager_back",
+    "east": "maikura_enchant_manager:block/enchant_manager_side",
+    "west": "maikura_enchant_manager:block/enchant_manager_side",
+    "up": "maikura_enchant_manager:block/enchant_manager_top",
+    "down": "maikura_enchant_manager:block/enchant_manager_bottom"
+  }
+}

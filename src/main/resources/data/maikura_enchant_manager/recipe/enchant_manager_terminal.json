@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BEB",
+    "LAL",
+    "NWN"
+  ],
+  "key": {
+    "B": "minecraft:enchanted_book",
+    "E": "minecraft:enchanting_table",
+    "L": "minecraft:lapis_block",
+    "A": "minecraft:amethyst_block",
+    "N": "minecraft:netherite_block",
+    "W": "minecraft:crafting_table"
+  },
+  "result": {
+    "id": "maikura_enchant_manager:enchant_manager_terminal",
+    "count": 1
+  }
+}
