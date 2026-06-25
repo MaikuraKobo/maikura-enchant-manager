@@ -1,47 +1,91 @@
 # Maikura Enchant Manager
 
-舞倉工房 / MAIKURA KOBO の投入スロット型エンチャント管理MODです。
+A slot-based enchantment management mod for Minecraft Fabric, created by **MAIKURA KOBO**.
 
-## v1.0.0
+## v1.0.1
 
-### 概要
+## Overview
 
-エンチャント管理端末を設置し、GUIからアイテムへエンチャントを付与できます。
+Maikura Enchant Manager adds an **Enchant Manager Terminal** block that lets you apply enchantments to items through a dedicated GUI.
 
-サバイバル・クリエイティブ・開発環境での利用を想定しており、検索やカテゴリフィルタによる快適なエンチャント管理を行えます。
+It is designed for survival, creative, and development environments, providing a clean enchantment management interface with search, category filters, suitable enchantment filtering, and high-level enchantment support.
 
-### 主な機能
+## Features
 
-- ブロック設置型「エンチャント管理端末」
-- GUI内の1スロットに入れたアイテムへエンチャント付与
-- 適正エンチャント表示
-- 検索対応
-- カテゴリフィルタ対応
-- 高レベル付与設定対応
-- 非適正付与設定対応
-- Mod Menu設定画面対応
-- バニラ競合チェック対応
-  - デフォルトはバニラ競合を尊重
-  - 設定で競合無視可能
-  - 競合エンチャントはGUI内で表示
-- 全付与 / 全削除対応
-- エンチャント管理端末を光源化（光源レベル12）
-- 舞倉工房設備共通仕様対応
-  - 硬さ 5.5
-  - 高い爆発耐性
-  - ブロックアイテム耐火
-  - 破壊時自己ドロップ
-- 64xテクスチャ
-- 3Dアイテム表示
-- 設置向き対応
-- クラフトレシピ追加
+* Block-based **Enchant Manager Terminal**
+* Apply enchantments to an item placed in the GUI slot
+* Displays suitable enchantments for the selected item
+* Search support
+* Category filter support
+* High-level enchantment level support
+* Vanilla enchantment compatibility support
 
-### 対応環境
+  * Vanilla conflicts are respected by default
+  * Conflicting enchantments are shown in the GUI
+* Add and remove enchantments from the GUI
+* Enchanted book support
+* Books are converted into enchanted books when applying enchantments
+* Mod Menu configuration support
+* Japanese and English language support
 
-- Minecraft 1.21.11
-- Fabric Loader
-- Fabric API
+## v1.0.1 Changes
 
-### ライセンス
+* Removed support for applying non-suitable enchantments.
+* Removed the Mod Menu toggle for allowing all enchantments.
+* Removed the old `allowAllEnchantments` config option.
+* The “All” category is now enabled only for books and enchanted books.
+* For non-book items, the “All” category is shown as disabled and cannot be clicked.
+* Single and bulk enchantment application now only apply suitable enchantments to normal items.
+* Books are converted into enchanted books when applying all enchantments.
 
-MIT License
+## Usage
+
+1. Craft or obtain the **Enchant Manager Terminal**.
+2. Place the terminal block.
+3. Right-click the terminal to open the GUI.
+4. Place an item into the input slot.
+5. Select an enchantment from the list.
+6. Adjust the enchantment level if needed.
+7. Apply the enchantment.
+
+For books, enchantments can be applied and the item will become an enchanted book.
+
+## Enchantment Filtering
+
+For normal items, only suitable enchantments can be applied.
+
+For books and enchanted books, the **All** category is available, allowing enchantments to be applied to books.
+
+For non-book items, the **All** category is shown as disabled and cannot be clicked.
+
+## Configuration
+
+This mod supports Mod Menu configuration.
+
+Available settings may include GUI display options and vanilla conflict handling.
+
+The old `allowAllEnchantments` option has been removed in v1.0.1.
+
+## Important Notice
+
+If you used v1.0.0 and could not log in, please update to v1.0.1 or later.
+
+If the issue still occurs, delete the Maikura Enchant Manager config file and restart the game.
+
+## Requirements
+
+* Minecraft 1.21.11
+* Fabric Loader
+* Fabric API
+
+## Optional
+
+* Mod Menu
+
+## License
+
+This project is licensed under the MIT License.
+
+## Author
+
+MAIKURA KOBO / 舞倉工房
